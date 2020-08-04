@@ -1,0 +1,15 @@
+91/100
+
+Assignment 4 Grade - Shashank Nutakki
+
+(-3) line 44 - should invoke the URLCrawlerTask on ForkJoinPool.commonPool()
+
+(-2) line 170 - make call to getOrDownloadImage before the forEach loop because it is the same image
+
+(-1) line 170 - also should check that image retrieved from getOrDownloadImage is not null
+
+(-3) line 176 - only increment imgCount if task.join() does not return null
+
+Total = 91/100
+
+Graded by: jesse.d.seales@vanderbilt.edu
